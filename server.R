@@ -1182,3 +1182,4 @@ server <- function(input, output,session) {
 # selectInput("xcolf3", "Random Forest Predictor 2:",choices = names(df)),
 # selectInput("xcolf4", "Random Forest Predictor 3:",choices = names(df)),
 # box(plotOutput("randomforest"))
+shinyApp(ui, server)
